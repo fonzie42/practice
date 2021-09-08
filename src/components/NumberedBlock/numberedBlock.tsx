@@ -15,16 +15,23 @@ const NumberHeading = styled.h3`
 
 const StyledHeading = styled.h3`
   font-size: 18px;
-  line-height: 21.94px;
+  line-height: 22px;
   text-align: center;
 `
 
+const WrapDiv = styled.div`
+height: 433px;
+width: 207px;
+justify-self: center;
+`
+
+
 export const NumberedBlock: VFC<NumberedBlockProps> = ({numberTitle, title, text}) => {
   return (
-    <div>
+    <WrapDiv>
       <NumberHeading>{numberTitle}</NumberHeading>
       <StyledHeading>{title}</StyledHeading>
       <p>{text}</p>
-    </div>
+    </WrapDiv>
   )
 }

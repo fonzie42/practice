@@ -1,15 +1,13 @@
-import './App.css';
-import {LandingPage} from './scenes/landingPage'
+import './App.css'
+import { LandingPage } from './scenes/landingPage'
+import { SecondPage } from './scenes/secondPage'
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
-      
-      Sessao 2
-      Sessao 3
-      Footer
+      <LandingPage />
+      <SecondPage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
